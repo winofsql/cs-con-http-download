@@ -10,8 +10,6 @@ namespace cs_con_http_download
         // https://docs.microsoft.com/ja-jp/dotnet/csharp/tutorials/console-webapiclient
         static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-
             HttpClient client = new HttpClient();
 
             Byte[] data = await client.GetByteArrayAsync("https://winofsql.jp/fflogo.png");
