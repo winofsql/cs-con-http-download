@@ -29,3 +29,5 @@ namespace cs_con_http_download
     }
 }
 ```
+
+### [static async Task Main](https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/proposals/csharp-7.1/async-main#code-try-3)
