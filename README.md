@@ -96,6 +96,17 @@ namespace cs_con_web_json
             Console.WriteLine(data.text);
 
             Console.ReadLine();
+
+            Byte[] data2 = await httpClient.GetByteArrayAsync("https://img.furusato-tax.jp/img/x/gcf/project/forms/20200710/d_82f8d8b5cb154d4e2469a21f6402a956f0947cf6.jpg");
+
+            using (FileStream stream = File.Open("test.jpg", FileMode.Create))
+            {
+                using (BinaryWriter writer = new BinaryWriter(stream))
+                {
+                    writer.Write(data2);
+                }
+            }
+
         }
 
         // ******************************************
