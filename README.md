@@ -35,13 +35,13 @@ namespace cs_con_http_download
 
 ```cs
 using System;
-using System.Net;
-using System.Text;
+// using System.Net;
+// using System.Text;
 using Newtonsoft.Json;
 
-using System.IO;
-using System.Net.Http;
-using System.Threading.Tasks;
+// using System.IO;
+// using System.Net.Http;
+// using System.Threading.Tasks;
 
 // dotnet add package Newtonsoft.Json --version 13.0.1
 // dotnet add package System.Text.Encoding.CodePages
